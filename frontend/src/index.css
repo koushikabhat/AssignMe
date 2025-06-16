@@ -1,0 +1,384 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-div {
+    height: 80px;
+    width: 100%;
+    background-color: #1e293b; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+  }
+  
+  .nav-logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #60a5fa; 
+    list-style: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 150px;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    font-size: 28px;
+  
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-links li:hover {
+    color: #38bdf8; 
+    transform: scale(1.05);
+  }
+
+
+
+    /* Reset & base setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f1f5f9; /* light gray-blue */
+}
+
+/* Signin Page Design */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-h1 {
+  margin-top: 100px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1e293b; /* dark slate */
+}
+
+.main-login-box {
+  margin-top: 30px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #cbd5e1; /* light border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 150%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-tag {
+  border: 1.5px solid #94a3b8;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-tag:focus {
+  border: 2px solid #3b82f6;
+}
+
+.login-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.03);
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -10px;
+  color: #475569;
+}
+
+/* Home Page Design */
+.home-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: linear-gradient(to right, #f1f5f9, #e2e8f0);
+  padding: 20px;
+  text-align: center;
+}
+
+.home-sub-div {
+  margin-bottom: 30px;
+}
+
+.home-h1 {
+  font-size: 36px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.home-sub-div p {
+  font-size: 18px;
+  color: #475569;
+}
+
+.home-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+
+/* Admin Panel Design */
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 50px;
+  border-radius: 16px;
+  background-color: #f4f7fa;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 400px;
+}
+
+.admin-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.admin-header h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 42px;
+}
+
+.admin-header h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.admin-header p {
+  color: #555;
+  font-size: 20px;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.admin-button {
+  padding: 18px 32px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  min-width: 120px;
+}
+
+.admin-button:hover {
+  background-color: #115293;
+  transform: scale(1.05);
+}
+
+
+/* btn bootstrap */
+.btn-bootstrap{
+  height: 70px;
+  width: 200px;
+  background-color: rgb(25, 118, 210);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn-bootstrap:hover {
+  background-color: #115293;
+  transform: scale(1.05);
+}
+
+/* showagent desiign */
+/* ========== Show Agent Page ========== */
+
+.container-showagent {
+  padding: 60px 20px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+.subcontainer-showagent {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subcontainer-showagent h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+.agent-card {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.2s ease;
+  
+}
+
+.agent-card:hover {
+  transform: scale(1.02);
+}
+
+.agent-card ul {
+  list-style: none;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #334155;
+}
+
+.agent-card button {
+  margin-right: 12px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.agent-card button:hover {
+  transform: scale(1.05);
+}
+
+.agent-card button:nth-child(1) {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.agent-card button:nth-child(2) {
+  background-color: #ef4444;
+  color: white;
+}
+
+
+
+
+/* Show Task */
+/* Show Task */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.h1-showtask{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.agent-card {
+  background-color: #ffffff;
+  border-left: 8px solid #007bff;
+  margin-bottom: 25px;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.agent-id {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.task-list {
+  padding-left: 20px;
+}
+
+.task-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-name {
+  font-weight: bold;
+  color: #444;
+}
+
+.task-note {
+  color: #666;
+}
+
+
